@@ -40,12 +40,12 @@
     
 }
 .profile-pic{
-    width:40%;
-    height:23%;
+    width:45%;
+    height:27%;
     border-radius: 50%;
     align-self: center;
     margin-bottom: 13%;
-    margin-top: 10%;
+    margin-top: 8%;
     filter: brightness(50%);
     filter: contrast(50%);
     filter: drop-shadow(5px 5px 5px #ffff80);
@@ -68,11 +68,11 @@ i{
 }
 font{
   color: #D8D8D8;
-  font-size:150%;
+  font-size:170%;
 }
-a{
+.menu-container a{
   margin-bottom: 5%;
-  font-size: 135%;
+  font-size: 150%;
   font-family: 'Times New Roman', Times, serif;
   font-weight: bolder;
 }
@@ -109,13 +109,14 @@ a:link {
   background-color: #777;
   color: black;
   border-radius:20px;
-  font-weight: 800;
+  font-weight: 900;
 }
 .btn:hover {
     background-color:#FFD700;
     transition: 0.7s;
     border:none;
     box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+    font-size: 120%;
 }
 .btn-style{
   color:black;
@@ -150,21 +151,22 @@ span{
 .right-info{
   display: flex;
   flex-direction: column;
-  margin-left: 10%;
+  margin-left: 7%;
 
 }
 .left-info{
   font-style: italic;
+  font-size: 110%;
 }
 .block{
   text-align: center;
   margin: 7%;
-  margin-right: 15%;
+  margin-right: 5%;
   background-color:rgba(255, 255, 255, 0.4);
   box-shadow: 0 4px 8px 0 rgba(255,255,255,0.6);
   border-radius: 20px;
-  width: 180px;
-  height:110px;
+  width: 220px;
+  height:130px;
   color:black;
   font-style: italic;
   text-align: center;
@@ -178,7 +180,7 @@ span{
 .contact-left-info{
   display: flex;
   flex-direction: column;
-  margin-left: 50px;
+  margin-left: 100px;
 }
 textarea,input{
   padding: 10px;
@@ -197,8 +199,8 @@ textarea,input{
 }
 .contact-block{
   background-color: rgba(255, 255, 255, 0.4);
-  height: 160px;
-  width: 220px;
+  height: 180px;
+  width: 240px;
   margin-bottom: 30px;
   margin-left: 100px;
   border-radius: 5px;
@@ -222,7 +224,7 @@ textarea,input{
   transition: 0.7s;
 }
 .contact-font{
-  font-size: 20px;
+  font-size: 22px;
   color: black;
 }
 .top-block{
@@ -254,8 +256,8 @@ textarea,input{
 .graduation{
   background-color: #FFD700;
   border-radius: 50%;
-  height:50px;
-  width:50px;
+  height:65px;
+  width:65px;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -267,20 +269,20 @@ textarea,input{
 }
 .vertical-line{
   width: 2px;
-  height:170px;
+  height:200px;
   background-color: white;
-  margin-left: 25px;
+  margin-left: 32px;
 }
 .year{
   background-color: #555;
-  border-radius: 15px;
-  width:100px;
+  border-radius: 25px;
+  width:120px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 15px;
+  font-size: 20px;
   color: white;
-  height:30px;
+  height:43px;
   align-self: flex-start;
   margin-top: 10px;
   margin-left: 12px;
@@ -292,8 +294,7 @@ textarea,input{
 }
 .extra-education{
   background-color:rgba(255, 255, 255, 0.4);
-  width:800px;
-  font-size: 20px;
+  width:850px;
   padding:17px;
   border-radius: 30px;
   box-shadow: 0 4px 8px 0 rgba(255,255,255,0.6);
@@ -311,8 +312,8 @@ textarea,input{
   margin-left: 30px;
 }
 .percent-div{
-  height: 10px;
-  width:450px;
+  height: 12px;
+  width:470px;
   background-color: #555;
   display: flex;
   border-radius: 10px;
@@ -321,14 +322,14 @@ textarea,input{
 }
 .percentage{
   background-color: #FFD700;
-  height:10px;
+  height:12px;
   align-self: flex-start;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 .skill-para{
   color: white;
   text-align: left;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 900;
   font-style: italic;
   margin-bottom: 3px;
@@ -339,8 +340,8 @@ textarea,input{
   justify-content: space-around;
 }
 .personal-skill{
-  width:240px;
-  height:260px;
+  width:290px;
+  height:330px;
   background-color:rgba(255, 255, 255, 0.4);
   margin-left: -150px;
   margin-top: 50px;
@@ -353,7 +354,7 @@ textarea,input{
   text-align: left;
   font-style: italic;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 25px;
 }
 .project-container{
   display: flex;
@@ -364,13 +365,13 @@ textarea,input{
 .project-info{
   display: flex;
   flex-direction: column;
-  width:250px;
-  height:400px;
+  width:300px;
+  height:500px;
   justify-content: center;
   align-items: center;
 }
 .project-info p{
-  font-size: 20px;
+  font-size: 25px;
   color:rgba(255,255,153,0.7);
   font-style: oblique;
 }
@@ -378,7 +379,7 @@ textarea,input{
   background-color: #FFD700;
   border-radius: 50%;
   height:100px;
-  width:50px;
+  width:60px;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -396,8 +397,8 @@ textarea,input{
    box-shadow: 0 0 10px rgba(112,105,155);
 }
 .intern-info{
-  height: 450px;
-  width: 400px;
+  height: 520px;
+  width: 450px;
   background-color: rgba(230, 230, 0,0.4);
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -409,7 +410,7 @@ textarea,input{
   text-align: left;
   font-style: italic;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 23px;
   color:black;
 }
 .achieve-container{
@@ -423,8 +424,8 @@ textarea,input{
 .achieve-info{
   background-color:rgba(240,255,240,0.3);
   padding:10px;
-  width:380px;
-  height:430px;
+  width:400px;
+  height:450px;
 }
 .achieve-logo{
   font-size: 230px;
@@ -436,7 +437,7 @@ textarea,input{
   text-align: left;
   font-style: italic;
   font-weight: 800;
-  font-size: 20px;
+  font-size: 22px;
   color:black;
 }
 
