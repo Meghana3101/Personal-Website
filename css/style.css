@@ -77,14 +77,14 @@ font{
   font-weight: bolder;
 }
 a:link {
-    color: #FFD700;
+    color: #ffc40c ;
     text-decoration: none;
   }
   a:visited {
-    color: #FFD700;
+    color: #ffc40c ;
   }
   a:hover {
-    color: yellow;
+    color: #ffc40c ;
     font-size: 25px;
     
   }
@@ -99,7 +99,7 @@ a:link {
     border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb {
-    background:#FFD700;
+    background:#ffc40c ;
     border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover {
@@ -112,7 +112,7 @@ a:link {
   font-weight: 900;
 }
 .btn:hover {
-    background-color:#FFD700;
+    background-color:#ffc40c ;
     transition: 0.7s;
     border:none;
     box-shadow: 0px 0px 2px 2px rgb(0,0,0);
@@ -138,7 +138,7 @@ hr{
   flex-direction: row;
   align-items: center;
   font-size: 25px;
-  color: #FFD700;
+  color: #ffc40c ;
   margin-top: 4%;
   text-align: left;
   margin-left: 10%;
@@ -191,7 +191,7 @@ textarea,input{
   background-color: rgba(255, 255, 255, 0.9);
 }
 .contact-left-info p{
-  color: #FFD700;
+  color: #ffc40c ;
   font-weight: 900;
   font-style: oblique;
   font-size: 22px;
@@ -220,7 +220,7 @@ textarea,input{
   font-weight: bolder;
 }
 .button-send:hover {
-  background-color:#FFD700;
+  background-color:#ffc40c ;
   transition: 0.7s;
 }
 .contact-font{
@@ -254,7 +254,7 @@ textarea,input{
   flex-direction: row;
 }
 .graduation{
-  background-color: #FFD700;
+  background-color: #ffc40c ;
   border-radius: 50%;
   height:65px;
   width:65px;
@@ -312,7 +312,7 @@ textarea,input{
   margin-left: 30px;
 }
 .percent-div{
-  height: 12px;
+  height: 10px;
   width:470px;
   background-color: #555;
   display: flex;
@@ -321,8 +321,8 @@ textarea,input{
   margin-bottom: 20px;
 }
 .percentage{
-  background-color: #FFD700;
-  height:12px;
+  background-color: #ffc40c ;
+  height:10px;
   align-self: flex-start;
   border-radius: 15px;
 }
@@ -376,7 +376,7 @@ textarea,input{
   font-style: oblique;
 }
 .calorie{
-  background-color: #FFD700;
+  background-color: #ffc40c ;
   border-radius: 50%;
   height:100px;
   width:60px;
@@ -399,7 +399,7 @@ textarea,input{
 .intern-info{
   height: 520px;
   width: 450px;
-  background-color: rgba(230, 230, 0,0.4);
+  background-color: rgba(255,196,12,0.5);
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   -webkit-box-shadow: 0 0 10px rgba(112,105,155);
